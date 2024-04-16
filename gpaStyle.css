@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Aclonica', 'Arial', 'sans-serif';
+}
+#table1 {
+    table-layout: fixed;
+    width: 200px;
+    margin: 50px;
+    padding: 12px 0px 20px 12px;
+    border-style:groove;
+    border-width: 10px;
+    border-color: rgb(75,0,130);
+    border-collapse:separate;
+    border-radius:10px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgb(206, 170, 237);
+}
+th, td{
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    color: rgb(75,0,130);
+}
+th{
+    font-size: 16px;
+}
+select, input{
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 3px #666;
+    border: 3px solid rgb(75,0,130);
+    border-style: groove;
+    font-size: 16px;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(220, 208, 255);
+    color: rgb(75,0,130);
+    font-family: 'Aclonica', 'Arial', 'sans-serif';
+}
+.course > td{
+    width: 270px;
+}
+.course{
+    width: 160px;
+}
+.credits{
+    width: 100px;
+}
+.grade{
+    width: 100px;
+}
+#gpa{
+    width: 80px;
+}
+.button{
+    width: 180px;
+    padding: 10px;
+    border-radius: 12px;
+    color: rgb(75,0,130);
+    text-align: center;
+} 
+.button:hover{
+    background-color: rgb(75,0,130);
+    color: rgb(225,225,225);
+    box-shadow: 5px 5px 6px  #666;
+    cursor:pointer;
+}
+footer{
+    left: 0;
+    bottom: 0;
+    height:80px;
+    width: 100%;
+    position: static;
+    text-align: center;
+    background-color: rgb(220, 208, 255);
+    color: rgb(75,0,130);
+    align-items: fixed;
+}
